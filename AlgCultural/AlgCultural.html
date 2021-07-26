@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+    <link rel="stylesheet" href="AlgCultural.css">
+    <title>AlgCultural</title>
+</head>
+<body>
+    <section class="header">
+      <nav>
+          <a href="AlgCultural.html"><img src="images/logo1.png" alt="logo" ></a>
+          <div class="nav-links" id="navLinks">
+            <span class="iconify" data-icon="ion:close" onclick="hideMenu()"></span>
+              <ul>
+                  <li><a href="">HOME</a></li>
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">POSTS</a></li>
+                  <li><a href="">BLOG</a></li>
+                  <li><a href="">CONTACT</a></li>
+              </ul>
+          </div>
+          <span class="iconify" data-icon="heroicons-solid:menu" onclick="showMenu()"></span>
+      </nav>
+      <div class="text-box">
+          <h1>YOUR <span style="color: red;">CULTURAL</span> DOSE IN YOUR LANGUAGE</h1>
+          <p>We may have different religions, different languages, different colored skin,
+              <br> but we all belong to one human race</p>
+            <a href="" class="btn">Visit us to know more</a>
+      </div>
+
+    </section>
+    
+    <!-----------------------POSTS------------------>
+
+    <section class="posts">
+        <h1>Our Posts</h1>
+        <p> Our mission is to show you that the beauty of 
+            the world lies in the diversity of its people.</p>
+            <div class="row">
+                <div class="post-col">
+                    <h3>History</h3>
+                    <p>History is the study of the past. Events before the invention of writing systems are considered prehistory. 
+                        "History" is an umbrella term comprising past events as well as the memory,
+                     discovery, collection, organization, presentation, and interpretation of these events.</p>
+                </div>
+
+                <div class="post-col">
+                    <h3>Art</h3>
+                    <p>Art is a diverse range of human activities involving creative imagination to express technical proficiency,
+                         beauty, emotional power, or conceptual ideas. There is no generally agreed definition of what constitutes art, 
+                         and ideas have changed over time.</p>
+                </div>
+
+                <div class="post-col">
+                    <h3>World</h3>
+                    <p>In its most general sense, the term "world" refers to the totality of entities, to the whole of reality or to everything that was, is and will be. The nature of the world has been conceptualized differently in different fields. 
+                    Some conceptions see the world as unique while others talk of a "plurality of worlds".</p>
+                </div>
+            </div>
+    </section>
+<!-------branches------>
+    <section class="branches">
+       <h1>Our Branches</h1>
+       <p>In its most general sense, the term "world" refers to the totality</p>
+       <div class="row">
+           <div class="branches-col">
+               <img src="images/algeruim.png" alt="MOTHERPAGE">
+               <div class="layer">
+                   <h3>Mother Page Algeruim</h3>
+               </div>
+           </div>
+
+           <div class="branches-col">
+               <img src="images/algeruimPOD.png" alt="Podcast">
+               <div class="layer">
+                 <h3>Podcast</h3>
+               </div>
+           </div>
+
+           <div class="branches-col">
+            <img src="images/algeruimYTB.PNG" alt="Youtube">
+            <div class="layer">
+              <h3>Youtube</h3>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <!--------------->
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JS FOR MENU---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
