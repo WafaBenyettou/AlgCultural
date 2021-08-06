@@ -49,6 +49,24 @@ nav img {
 .nav-links ul li:hover::after {
   width: 100%;
 }
+@media (max-width: 800px) {
+  .nav-links ul li:last-child:hover:after {
+    width: 60%;
+  }
+  .nav-links ul li:after {
+    position: absolute;
+    left: 12px;
+  }
+  .nav-links ul li:first-child:hover::after {
+    width: 33%;
+  }
+  .nav-links ul li:nth-child(4):hover::after {
+    width: 33%;
+  }
+  .nav-links ul li:hover::after {
+    width: 41%;
+  }
+}
 .text-box {
   width: 90%;
   color: #fff;
